@@ -1,23 +1,20 @@
-.message{
+.divider{
+    height: 20px;
+    position: relative;
+    text-align: center;
+}
+.divider:after{
+    content: '';
+    border-bottom: 1px solid black;
+    width: 100%;
+    display: block;
     position: absolute;
-    top: 30px;
-    right: 30px;
-    width: 300px;
-    padding: 10px 15px;
-    border: 1px solid black;
+    top: 50%;
 }
-.message a{
+
+.divider span{
+    z-index: 1;
+    background-color: white;
     position: absolute;
-    top: 5px;
-    right: 5px;
-    text-decoration: none;
-    color: grey;
-}
-.message p{
-    margin: 0 0 10px;
-}
-.message span{
-    width: 280px;
-    display: inline-block;
-    color: grey;
+    transform: translateX(-50%);
 }
