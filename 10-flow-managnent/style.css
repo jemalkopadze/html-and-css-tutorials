@@ -12,20 +12,15 @@ header, .col-1, .col-2, .col-3, footer{
 header{
     width: 100%;
 }
-.col-1, .col-2{
-    width: 285px;
-}
-.col-1{
+.col-1, .col-2, .col-3{
+    width: 180px;
     float: left;
+        
 }
-.col-2{
-    float: right;
-}
-.col-3{
-    clear: both;
-    width: 40%;
-    margin: 0 auto 30px;
-}
-main div:nth-child(3){
+.row .cell:last-child{
     margin-right: 0;
+}
+footer{
+    clear: both;
+    width: 100%;
 }
