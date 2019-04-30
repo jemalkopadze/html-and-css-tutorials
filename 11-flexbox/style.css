@@ -1,0 +1,21 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+}
+.cell{
+    min-height: 50px;
+    margin: 10px;
+    background-color: green;
+}
+.header, .col-1, .col-2,.footer{
+    flex-grow: 1;
+}
+.col-3{
+    width: 60%;
+    margin: 10px auto;
+}
