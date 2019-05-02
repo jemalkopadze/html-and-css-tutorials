@@ -5,14 +5,18 @@
 }
 .top{
    background-color: #222533;
+   padding-bottom: 86px;
 }
 .bottom{
    background-color: #171D22;
    padding: 20px 20px;
+   padding-bottom: 38px;
+   padding-top: 38px;
 }
 .bottom .wrap a{
    text-decoration: none;
    color: #1ABC9C;
+
 }
 .wrap{
    width: 1168px;
@@ -31,14 +35,20 @@
    font-size: 16px;
    line-height: 24px;
    color: #A1B1BC;
+   letter-spacing: -0.6px;
+   word-spacing: 0.4px;
+   margin-top: 2px;
 }
 .top .wrap h3{
    font-family: 'PT Sans';
    font-size: 16px;
    line-height: 24px;
    color: #FFFFFF;
-   margin-top: 100px;
+   margin-top: 93px;
+   margin-bottom: 34px;
    text-transform: uppercase;
+   letter-spacing: 4.7px;
+   word-spacing: 0.8px;
 }
 .top .wrap h3::after{
    content: "";
@@ -46,27 +56,37 @@
    height: 3px;
    background-color: #1ABC9C;
    display: block;
+   margin-top: 5px;
+   margin-left: 2px;
+   margin: 5px 0px;
+
 }
 .wrap ul li{
    list-style: none;
    display: flex;
    flex-direction: column;
-   border-bottom: 1px solid #707070;
-   padding-top: 20px;
-   padding-bottom: 20px;
+   margin-left: 2px;
 }
-.wrap ul li:last-child{
-   border-bottom: none;
+.wrap ul li:after {
+   content:'';
+   height:1px;
+   width:100%;
+   background:#343A47;
+   margin-top: 16px;
+   margin-bottom: 17px;
 }
-.wrap ul li:first-child{
-   border-bottom: 1px solid #707070;
+
+.wrap ul li:last-child::after {
+   display: none;
 }
 .wrap ul li a{
    font-family: 'PT Sans';
    font-size: 16px;
    line-height: 24px;
-   color: #A1B1BC;
+   color: #ECF0F1;
    text-decoration: none;
+   margin-left: -2px;
+   margin-top: -1px;
 }
 .wrap ul li a:hover{
    color: #1ABC9C;
@@ -76,6 +96,7 @@
    font-size: 14px;
    line-height: 24px;
    color: #A1B1BC;
+   margin-left: -2px;
 }
 
 .wrap .notes p{
@@ -83,14 +104,15 @@
    font-size: 14px;
    line-height: 24px;
    color: #A1B1BC;
-   margin-bottom: 20px;
-   margin-top: 17px;
+   margin-top: 31px;
+   margin-left: 2px;
 }
 .wrap .notes a{
    font-family: 'PT Sans';
-   font-size: 17px;
+   font-size: 14px;
    font-weight: 700;
-   line-height: 24px;
+   line-height: 44px;
+   margin-left: 2px;
    color: #1ABC9C;
    text-decoration: none;
    text-transform: uppercase;
